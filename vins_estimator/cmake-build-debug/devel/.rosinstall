@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gao/project/vins_covins_ws/src/VINS-Fusion/vins_estimator/cmake-build-debug/devel/setup.sh

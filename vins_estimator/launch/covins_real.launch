@@ -1,0 +1,8 @@
+<launch>
+    <arg name="ag_n" default="0" />
+    <arg name="config" default="$(find vins)/../config/fast_drone_250.yaml" />
+
+    <node pkg="vins" type="vins_node" name="vins_fusion" args="$(arg config)" output="screen">
+    </node>
+
+</launch>
