@@ -7,3 +7,4 @@ rosbag record --tcpnodelay \
 /position_cmd \
 /mavros/global_position/global \
 /mavros/local_position/pose \
+/mavros/imu/data_raw \
