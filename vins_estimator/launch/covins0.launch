@@ -1,6 +1,6 @@
 <launch>
     <arg name="ag_n" default="0" />
-    <arg name="config" default="/home/coolas/project/vins_ws/src/vins/config/euroc_mono_imu_config.yaml" />
+    <arg name="config" default="/home/coolas-fly/project/vins_ws/src/vins/config/euroc_mono_imu_config.yaml" />
 
     <group ns="agent_$(arg ag_n)">
         <node pkg="loop_fusion" type="loop_fusion_node" name="loop_fusion_node" args="$(arg config)" output="screen">
